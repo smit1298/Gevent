@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.125rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: rgb(85, 83, 83);
+  line-height: 1.44;
+}
+.main {
+  padding: 40px;
+}
+#card > h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+.partners {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  column-gap: 20px;
+  width: 100%;
+}
+
+.partners img {
+  object-position: center;
+  object-fit: cover;
+  width: 50%;
+  padding-left: 25%;
+  padding-bottom: 50px;
+  padding-top: 35px;
+}
+
+.partners a {
+  text-decoration: none;
+  color: rgb(85, 83, 83);
+}
+
+.bussiness {
+  background-color: rgb(241, 241, 241);
+  width: 90%;
+  height: 450px;
+  position: relative;
+}
+.bussiness > a > h3 {
+  padding: 10px;
+}
+.bussiness > a > p {
+  padding: 10px;
+}
+
+.bussiness .iconify {
+  position: absolute;
+  top: 390px;
+  left: 330px;
+  color: blue;
+}
+
+.lsetf {
+  background-color: rgb(241, 241, 241);
+  width: 90%;
+  height: 450px;
+  position: relative;
+}
+.lsetf > a > h3 {
+  padding: 10px;
+}
+.lsetf > a > p {
+  padding: 10px;
+}
+
+.lsetf .iconify {
+  position: absolute;
+  top: 390px;
+  left: 330px;
+  color: blue;
+}
+
+.SA {
+  background-color: rgb(241, 241, 241);
+  width: 90%;
+  height: 450px;
+  position: relative;
+}
+.SA > a > h3 {
+  padding: 10px;
+}
+.SA > a > p {
+  padding: 10px;
+}
+
+.SA .iconify {
+  position: absolute;
+  top: 390px;
+  left: 330px;
+  color: blue;
+}
+
+#sec-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 50px;
+  width: 70%;
+  padding-left: 200px;
+  column-gap: 20px;
+}
+#sec-grid img {
+  object-position: center;
+  object-fit: cover;
+  width: 50%;
+  padding-left: 25%;
+  padding-bottom: 50px;
+  padding-top: 35px;
+}
+
+#sec-grid a {
+  text-decoration: none;
+  color: rgb(85, 83, 83);
+}
+.flutter {
+  background-color: rgb(241, 241, 241);
+  width: 90%;
+  height: 450px;
+  position: relative;
+}
+.flutter > a > h3 {
+  padding: 10px;
+}
+.flutter > a > p {
+  padding: 10px;
+}
+
+.flutter .iconify {
+  position: absolute;
+  top: 390px;
+  left: 330px;
+  color: blue;
+}
+.visa {
+  background-color: rgb(241, 241, 241);
+  width: 90%;
+  height: 450px;
+  position: relative;
+}
+.visa > a > h3 {
+  padding: 10px;
+}
+.visa > a > p {
+  padding: 10px;
+}
+
+.visa .iconify {
+  position: absolute;
+  top: 390px;
+  left: 330px;
+  color: blue;
+}

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.125rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: rgb(85, 83, 83);
+  line-height: 1.44;
+}
+.whole {
+  padding: 50px;
+}
+.eligibility {
+  width: 100%;
+  color: rgb(85, 83, 83);
+}
+.eligibility > h1 {
+  font-size: 30px;
+}
+.eligibility > p {
+  padding: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  column-gap: 15px;
+  padding-top: 30px;
+}
+.grid img {
+  object-position: center;
+  object-fit: cover;
+  height: 50%;
+  width: 100%;
+}
+
+.Bussiness {
+  text-align: center;
+  font-weight: 5px;
+  font-size: 17px;
+  color: rgb(85, 83, 83);
+}
+.Bussiness > p {
+  font-weight: 1px;
+}
+
+.information{
+    padding-top: 20px;
+}
+.info {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 20px;
+  padding-top: 20px;
+}
+.imag img{
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+}
+.content > p{
+    padding-top: 30px;
+    font-weight: 1px;
+}
+
